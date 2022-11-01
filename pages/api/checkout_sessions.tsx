@@ -37,7 +37,7 @@ export default async function handler(
                 line_items: transformedItems,
                 payment_intent_data: {},
                 mode: "payment",
-                success_url: `${req.headers.origin}/success?session_id={CHECKOUT_SESSION_ID}`,
+                success_url: `${req.headers.origin}/success`, //success_url: `${req.headers.origin}/success?session_id={CHECKOUT_SESSION_ID}`,
                 cancel_url: `${req.headers.origin}/checkout`,
                 metadata: {
                     images: JSON.stringify(items.map((item) => item.image[0].asset.url)),
