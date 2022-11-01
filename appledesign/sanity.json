@@ -4,8 +4,8 @@
     "name": "appledesign"
   },
   "api": {
-    "projectId": "lwbgzxn3",
-    "dataset": "production"
+    "projectId": "placeholder",
+    "dataset": "placeholder"
   },
   "plugins": [
     "@sanity/base",

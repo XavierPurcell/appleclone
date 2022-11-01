@@ -138,3 +138,6 @@ Fixes no react-redux and UMD global issue
 
 nextAuth sessions props
 https://stackoverflow.com/questions/73668032/nextauth-type-error-property-session-does-not-exist-on-type
+
+
+https://github.com/sanity-io/sanity-template-nextjs-blog-comments/issues/5
